@@ -1,14 +1,12 @@
-#include "guiMVC.h"
-
-
-//there should be some menu
+#include "GUIController.cpp"
 
 int main(){
 
-    GUIController controller;
-    controller.createNewDocument();
-    controller.exportDocument("myDocument.pdf");
-    controller.importDocument("myDocument.pdf");
-    controller.createPrimitive();
-    controller.deletePrimitive();
+	GUIController controller;
+	controller.createNewDocument();
+	controller.createPrimitive(4, 7);
+	controller.createPrimitive(5, 9);
+	controller.createPrimitive(1, 0);
+
+	controller.exportDocument("GUIDocument.txt");
 }
