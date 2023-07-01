@@ -1,0 +1,4 @@
+<map id="GUIController" name="GUIController">
+<area shape="rect" id="node1" title="Interface between user and vector graphic editor." alt="" coords="5,95,116,121"/>
+<area shape="rect" id="node2" href="$classGUIView.html" title="Displays primitives." alt="" coords="21,5,100,32"/>
+</map>

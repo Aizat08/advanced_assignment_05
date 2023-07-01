@@ -1,0 +1,4 @@
+<map id="Point" name="Point">
+<area shape="rect" id="node1" title="Reflects the geometrical point." alt="" coords="31,80,85,107"/>
+<area shape="rect" id="node2" href="$classGUIPrimitive.html" title="Represents GUI primitves." alt="" coords="5,5,111,32"/>
+</map>
