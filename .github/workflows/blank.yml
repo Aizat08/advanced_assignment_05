@@ -13,7 +13,7 @@ jobs:
         with:
           submodules: true
       - run: cmake src
-      - run: cmake --build src
+      - run: cmake --build .
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
